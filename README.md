@@ -13,7 +13,7 @@ This project is a **web scraping** tool built using **Selenium** to extract jour
 - **Error Handling**: Catches common web scraping and message queue exceptions.
 
 ## Technologies
-- **Python 3.x**
+- **Python 3.6+**
 - **Selenium** (with Chrome WebDriver)
 - **RabbitMQ** (pika library)
 - **JSON** (for output)
