@@ -3,7 +3,7 @@ import logging
 import sys
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+logging.getLogger('pika').setLevel(logging.WARNING)
 
 
 def send_journal_numbers_to_queue(filename):
