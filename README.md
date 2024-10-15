@@ -32,7 +32,7 @@ This project is a **web scraping** tool built using **Selenium** to extract jour
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/journal-web-scraper.git
+git clone https://github.com/Afakari/journal-web-scraper.git
 cd journal-web-scraper
 ```
 
