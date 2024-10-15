@@ -5,6 +5,15 @@ This project is a **web scraping** tool built using **Selenium** to extract jour
 > One of the main reasons that this project uses **RabbitMQ** instead of a simple multiprocessing python pool is mainly because at the time i had **RMQ** set up on my machine. So... we use it.
 >It's overhead...
 
+### New changes:
+- Removed RMQ dependency
+- Added Pool / executioner for native python
+- Made script easier to use and more portable 
+
+> The old script is still in the scripts folder, mainly for practice purposes.
+> The new script does the same thing with alot less overhead.
+
+
 ## Features
 - **Asynchronous processing**: Uses RabbitMQ to queue and process journal numbers.
 - **Selenium Web Scraper**: Extracts journal information (years and quarters) based on the journal number.
